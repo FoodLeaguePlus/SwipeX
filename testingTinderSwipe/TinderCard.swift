@@ -74,7 +74,7 @@ class TinderCard: UIView {
         addSubview(profileImageView)
         
 
-        let header = UILabel(frame:CGRect(x: 30, y: frame.size.height - 500, width: frame.size.width - 250, height: 45))
+        let header = UILabel(frame:CGRect(x: 30, y: frame.size.height - 420, width: frame.size.width - 235, height: 35))
         header.textAlignment = .center
         header.layer.backgroundColor = UIColor.orange.cgColor
         header.layer.borderColor = UIColor.white.cgColor
@@ -85,7 +85,7 @@ class TinderCard: UIView {
         header.attributedText = attributedHeader
         addSubview(header)
         
-        let header2 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 500, width: frame.size.width - 250, height: 45))
+        let header2 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 420, width: frame.size.width - 235, height: 35))
         header2.textAlignment = .center
         header2.layer.backgroundColor = UIColor.orange.cgColor
         header2.layer.borderColor = UIColor.white.cgColor
@@ -98,7 +98,7 @@ class TinderCard: UIView {
 
         // ALICE
         if (count == 0) {
-            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             wantTag.textAlignment = .center
             wantTag.layer.backgroundColor = UIColor.white.cgColor
             wantTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -109,7 +109,7 @@ class TinderCard: UIView {
             wantTag.attributedText = attributedST
             addSubview(wantTag)
             
-            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             wantTag2.textAlignment = .center
             wantTag2.layer.backgroundColor = UIColor.white.cgColor
             wantTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -120,7 +120,7 @@ class TinderCard: UIView {
             wantTag2.attributedText = attributedST2
             addSubview(wantTag2)
             
-            let haveTag = UILabel(frame:CGRect(x: 220, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let haveTag = UILabel(frame:CGRect(x: 205, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             haveTag.textAlignment = .center
             haveTag.layer.backgroundColor = UIColor.white.cgColor
             haveTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -131,7 +131,7 @@ class TinderCard: UIView {
             haveTag.attributedText = attributedHT
             addSubview(haveTag)
             
-            let haveTag2 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let haveTag2 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             haveTag2.textAlignment = .center
             haveTag2.layer.backgroundColor = UIColor.white.cgColor
             haveTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -145,7 +145,7 @@ class TinderCard: UIView {
         }
         // KRISTEN
         if (count == 1) {
-            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             wantTag.textAlignment = .center
             wantTag.layer.backgroundColor = UIColor.white.cgColor
             wantTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -156,7 +156,7 @@ class TinderCard: UIView {
             wantTag.attributedText = attributedST
             addSubview(wantTag)
             
-            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             wantTag2.textAlignment = .center
             wantTag2.layer.backgroundColor = UIColor.white.cgColor
             wantTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -167,7 +167,7 @@ class TinderCard: UIView {
             wantTag2.attributedText = attributedST2
             addSubview(wantTag2)
             
-            let haveTag = UILabel(frame:CGRect(x: 220, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let haveTag = UILabel(frame:CGRect(x: 205, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             haveTag.textAlignment = .center
             haveTag.layer.backgroundColor = UIColor.white.cgColor
             haveTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -178,7 +178,7 @@ class TinderCard: UIView {
             haveTag.attributedText = attributedHT
             addSubview(haveTag)
             
-            let haveTag2 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let haveTag2 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             haveTag2.textAlignment = .center
             haveTag2.layer.backgroundColor = UIColor.white.cgColor
             haveTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -189,7 +189,7 @@ class TinderCard: UIView {
             haveTag2.attributedText = attributedHT2
             addSubview(haveTag2)
             
-            let haveTag3 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 280, width: frame.size.width - 250, height: 45))
+            let haveTag3 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 265, width: frame.size.width - 235, height: 35))
             haveTag3.textAlignment = .center
             haveTag3.layer.backgroundColor = UIColor.white.cgColor
             haveTag3.layer.borderColor = UIColor.lightGray.cgColor
@@ -200,7 +200,7 @@ class TinderCard: UIView {
             haveTag3.attributedText = attributedHT3
             addSubview(haveTag3)
             
-            let haveTag4 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 210, width: frame.size.width - 250, height: 45))
+            let haveTag4 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 215, width: frame.size.width - 235, height: 35))
             haveTag4.textAlignment = .center
             haveTag4.layer.backgroundColor = UIColor.white.cgColor
             haveTag4.layer.borderColor = UIColor.lightGray.cgColor
@@ -213,7 +213,7 @@ class TinderCard: UIView {
         }
         // ZHI YUH
         if (count == 2) {
-            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             wantTag.textAlignment = .center
             wantTag.layer.backgroundColor = UIColor.white.cgColor
             wantTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -224,7 +224,7 @@ class TinderCard: UIView {
             wantTag.attributedText = attributedST
             addSubview(wantTag)
             
-            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             wantTag2.textAlignment = .center
             wantTag2.layer.backgroundColor = UIColor.white.cgColor
             wantTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -235,7 +235,7 @@ class TinderCard: UIView {
             wantTag2.attributedText = attributedST2
             addSubview(wantTag2)
             
-            let wantTag3 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 280, width: frame.size.width - 250, height: 45))
+            let wantTag3 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 265, width: frame.size.width - 235, height: 35))
             wantTag3.textAlignment = .center
             wantTag3.layer.backgroundColor = UIColor.white.cgColor
             wantTag3.layer.borderColor = UIColor.lightGray.cgColor
@@ -247,7 +247,7 @@ class TinderCard: UIView {
             addSubview(wantTag3)
             
             
-            let haveTag = UILabel(frame:CGRect(x: 220, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let haveTag = UILabel(frame:CGRect(x: 205, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             haveTag.textAlignment = .center
             haveTag.layer.backgroundColor = UIColor.white.cgColor
             haveTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -258,7 +258,7 @@ class TinderCard: UIView {
             haveTag.attributedText = attributedHT
             addSubview(haveTag)
             
-            let haveTag2 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let haveTag2 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             haveTag2.textAlignment = .center
             haveTag2.layer.backgroundColor = UIColor.white.cgColor
             haveTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -271,7 +271,7 @@ class TinderCard: UIView {
         }
         // CHARLENE
         if (count == 3) {
-            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             wantTag.textAlignment = .center
             wantTag.layer.backgroundColor = UIColor.white.cgColor
             wantTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -282,7 +282,7 @@ class TinderCard: UIView {
             wantTag.attributedText = attributedST
             addSubview(wantTag)
             
-            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             wantTag2.textAlignment = .center
             wantTag2.layer.backgroundColor = UIColor.white.cgColor
             wantTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -293,7 +293,7 @@ class TinderCard: UIView {
             wantTag2.attributedText = attributedST2
             addSubview(wantTag2)
             
-            let haveTag = UILabel(frame:CGRect(x: 220, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let haveTag = UILabel(frame:CGRect(x: 205, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             haveTag.textAlignment = .center
             haveTag.layer.backgroundColor = UIColor.white.cgColor
             haveTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -304,7 +304,7 @@ class TinderCard: UIView {
             haveTag.attributedText = attributedHT
             addSubview(haveTag)
             
-            let haveTag2 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let haveTag2 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             haveTag2.textAlignment = .center
             haveTag2.layer.backgroundColor = UIColor.white.cgColor
             haveTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -317,7 +317,7 @@ class TinderCard: UIView {
         }
         // NICHOLAS
         if (count == 4) {
-            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             wantTag.textAlignment = .center
             wantTag.layer.backgroundColor = UIColor.white.cgColor
             wantTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -328,7 +328,7 @@ class TinderCard: UIView {
             wantTag.attributedText = attributedST
             addSubview(wantTag)
             
-            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let wantTag2 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             wantTag2.textAlignment = .center
             wantTag2.layer.backgroundColor = UIColor.white.cgColor
             wantTag2.layer.borderColor = UIColor.lightGray.cgColor
@@ -339,7 +339,7 @@ class TinderCard: UIView {
             wantTag2.attributedText = attributedST2
             addSubview(wantTag2)
             
-            let wantTag3 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 280, width: frame.size.width - 250, height: 45))
+            let wantTag3 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 265, width: frame.size.width - 235, height: 35))
             wantTag3.textAlignment = .center
             wantTag3.layer.backgroundColor = UIColor.white.cgColor
             wantTag3.layer.borderColor = UIColor.lightGray.cgColor
@@ -350,7 +350,7 @@ class TinderCard: UIView {
             wantTag3.attributedText = attributedST3
             addSubview(wantTag3)
             
-            let wantTag4 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 210, width: frame.size.width - 250, height: 45))
+            let wantTag4 = UILabel(frame:CGRect(x: 30, y: frame.size.height - 215, width: frame.size.width - 235, height: 35))
             wantTag4.textAlignment = .center
             wantTag4.layer.backgroundColor = UIColor.white.cgColor
             wantTag4.layer.borderColor = UIColor.lightGray.cgColor
@@ -361,7 +361,7 @@ class TinderCard: UIView {
             wantTag4.attributedText = attributedST4
             addSubview(wantTag4)
             
-            let haveTag = UILabel(frame:CGRect(x: 220, y: frame.size.height - 420, width: frame.size.width - 250, height: 45))
+            let haveTag = UILabel(frame:CGRect(x: 205, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
             haveTag.textAlignment = .center
             haveTag.layer.backgroundColor = UIColor.white.cgColor
             haveTag.layer.borderColor = UIColor.lightGray.cgColor
@@ -372,7 +372,7 @@ class TinderCard: UIView {
             haveTag.attributedText = attributedHT
             addSubview(haveTag)
             
-            let haveTag2 = UILabel(frame:CGRect(x: 220, y: frame.size.height - 350, width: frame.size.width - 250, height: 45))
+            let haveTag2 = UILabel(frame:CGRect(x: 205, y: frame.size.height - 315, width: frame.size.width - 235, height: 35))
             haveTag2.textAlignment = .center
             haveTag2.layer.backgroundColor = UIColor.white.cgColor
             haveTag2.layer.borderColor = UIColor.lightGray.cgColor
