@@ -73,7 +73,7 @@ class TinderCard: UIView {
         profileImageView.clipsToBounds = true
         addSubview(profileImageView)
         
-
+        
         let header = UILabel(frame:CGRect(x: 30, y: frame.size.height - 420, width: frame.size.width - 235, height: 35))
         header.textAlignment = .center
         header.layer.backgroundColor = UIColor.orange.cgColor
@@ -95,7 +95,7 @@ class TinderCard: UIView {
         let attributedHeader2 = NSMutableAttributedString(string: " HAVES ", attributes: [.foregroundColor: UIColor.darkText,.font:UIFont.boldSystemFont(ofSize:20),])
         header2.attributedText = attributedHeader2
         addSubview(header2)
-
+        
         // ALICE
         if (count == 0) {
             let wantTag = UILabel(frame:CGRect(x: 30, y: frame.size.height - 365, width: frame.size.width - 235, height: 35))
